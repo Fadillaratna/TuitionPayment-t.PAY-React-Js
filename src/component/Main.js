@@ -6,7 +6,7 @@ import Admin from './Admin';
 import Class from './Class';
 import Tuition from './Tuition';
 import Home from './Home';
-import Transaksi from '../Transaksi';
+import Transaksi from './Transaksi';
 
 const Main = () => (
     
