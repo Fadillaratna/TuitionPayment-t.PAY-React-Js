@@ -6,6 +6,7 @@ import Admin from './Admin';
 import Class from './Class';
 import Tuition from './Tuition';
 import Home from './Home';
+import Transaksi from '../Transaksi';
 
 const Main = () => (
     
@@ -15,6 +16,8 @@ const Main = () => (
         <Route exact path="/admin" component={Admin} />
         <Route exact path="/class" component={Class} />
         <Route exact path="/tuition" component={Tuition} />
+        <Route exact path="/transaction" component={Transaksi} />
+        
     </Switch>
 )
 
